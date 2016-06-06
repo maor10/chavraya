@@ -34,7 +34,14 @@ class Main extends CI_Controller {
 			$family_size = $this->input->post("family-size");
 			$message = $this->input->post("message");
 			$this->db->insert("members", array("email" => $email, "name" => $name, "city" => $city, "country" => $country, "phone" => $phone, "family_size" => $family_size, "message"=> $message ));
-			$msg = $name . "<br>" . $email . "<br>";
+			
+$headers = 'From: Chavraya info@chavraya.com' . "\r\n" ;
+    $headers .='Reply-To: '. $to . "\r\n" ;
+    $headers .='X-Mailer: PHP/' . phpversion();
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
+
+			$msg = $name .  " <br/> " . $email . " <br/> ";
 		mail("maor.kern@gmail.com","My subject",$msg);
 		}
 		header('Location: '. base_url());
