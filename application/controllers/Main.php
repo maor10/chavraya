@@ -41,8 +41,8 @@ $headers = 'From: Chavraya info@chavraya.com' . "\r\n" ;
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
 
-			$msg = $name .  " <br/> " . $email . " <br/> ";
-		mail("maor.kern@gmail.com","My subject",$msg);
+			$msg = "Name: " . $name .  "\r\n" . "Email: " . $email . "\r\n" . "City: " . $city . "\r\n" . "Country: " . $country . "\r\n" . "Phone: " . $phone . "\r\n" . "Family Size: " . $family_size . "\r\n" .  "Message: " . $message;
+		mail("maor.kern@gmail.com","New Registration!",$msg, $headers);
 		}
 		header('Location: '. base_url());
 
