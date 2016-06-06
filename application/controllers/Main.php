@@ -25,6 +25,8 @@ class Main extends CI_Controller {
 
 	//Yes, I know database shit should be done in the model. No, I don't care.
 	public function register_user(){
+		$msg = $name . "<br>" . $email . "<br>";
+		mail("maor.kern@gmail.com","My subject",$msg);
 		$name = $this->input->post("name");
 		if($name != false){
 			$email = $this->input->post("email");
