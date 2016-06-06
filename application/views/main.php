@@ -148,7 +148,7 @@ individuals as well as groups of heimish people who want to live in other locati
 
         
     </div>
-        <div id="benefits-section" class="features-container benefits-container">
+        <div id="benefits-section" class="features-container benefits-container" style="padding-bottom:0">
             <div class="inner-bg benefits-inner-container">
             <div class="container ">
                 <div class="row">
