@@ -331,7 +331,6 @@ Applicants receive the benefits in full detail depending on the family size</h4>
         <script>
         function submit_form(){
             //do validation
-            alert("hi");
             $("#dat").submit();
         }
         </script>
