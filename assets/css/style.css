@@ -390,7 +390,7 @@ color: #888;
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    background: url("../img/backgrounds/new-head.jpg");
+    background: url("../img/backgrounds/head2.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -401,7 +401,7 @@ color: #888;
     padding: 0;
 	padding-top: 180px;
 	padding-bottom: 120px;
-    background-color: rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.6); 
 }
 
 .top-content .text {
