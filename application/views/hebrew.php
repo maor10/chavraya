@@ -62,6 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="#benefits-section">דע לך</a></li>
                         <li><a href="#services-section">השירות שלנו</a></li>
                         <li><a href="#contact-section">הרשמה</a></li>
+                        <li><a href="#callaction-container">תרום לנו</a></li>
                     </ul>
                 </div>
             </div>

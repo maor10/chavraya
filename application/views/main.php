@@ -62,6 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="#benefits-section">Aliyah Benifits</a></li>
                         <li><a href="#services-section">Our Services</a></li>
                         <li><a href="#contact-section">Register</a></li>
+                        <li><a href="#callaction-container">Donate</a></li>
                     </ul>
                 </div> 
             </div>
