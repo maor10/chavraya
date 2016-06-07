@@ -15,7 +15,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="<?= base_url() ?>assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?= base_url() ?>assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?= base_url() ?>assets/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?= base_url() ?>assets/elegant-icons/css/elegant-icons.min.css">
         <link rel="stylesheet" href="<?= base_url() ?>assets/owl-carousel/owl.carousel.css">
         <link rel="stylesheet" href="<?= base_url() ?>assets/owl-carousel/owl.theme.css">
@@ -75,14 +76,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="col-md-10 col-md-offset-1 top-description">
 				
 				<h2 class="text-center">
-				<img src="assets/img/logo.png" width="250px" /></h2>
+				<img src="assets/img/logo.png" width="350px" /></h2>
 				
 					
 		<p>
 Chavraya's primary goal is to bring together a group of heimish families that are making aliyah, and create their own beautiful community, a comfortable place with schools for the children and amenities catering specifically to their needs.</p>
 		                            <div class="top-button">
                             	   <a class="btn btn-top-white btn-lg" href="#about-us-section"><i class="icon ion-mouse" style="margin-right:2px"></i>  Click to Learn More</a>
-
+                                    <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>index.php/he">החלף לעברית</a>
                             </div>
 	
 					</div>
@@ -97,24 +98,18 @@ Chavraya's primary goal is to bring together a group of heimish families that ar
         <!-- Features -->
         
 <div id="about-us-section" class="product-container product-bg2">
-            <div class="container">
+            <div class="container" style="text-align:center">
                 <div class="row">
 
                 <div class="col-lg-6 col-sm-6">
-                    <div class="productbox">
+                    <div class="productbox" >
                         <div>
                             <i class="icon ion-information"></i>
                         </div>
                         <h5>Chavraya was </h5>
 founded by a group of heimish families from the United States as well as internationally, that want to make aliyah and live in Eretz Yisroel, for various reasons. Chavraya will b'ezrat hashem help all who come from abroad to the Holy Land.
                     </div>
-                    <div class="productbox">
-                        <div>
-                            <i class="icon ion-android-exit"></i>
-                        </div>
-                        <h5>Chavraya's primary goal</h5>
-is to bring together a group of heimish families that are making aliyah, and create their own beautiful community, a comfortable place with schools for the children and amenities catering specifically to their needs.
-                    </div>
+                    
                     <div class="productbox">
                         <div>
                             <i class="icon ion-android-expand"></i>
@@ -296,6 +291,8 @@ Applicants receive the benefits in full detail depending on the family size</h4>
 	<div class="follow-us">
                         <a href="https://www.facebook.com/chavraya" class="social-icon"><i class="fa fa-facebook"></i></a>
                         <a href="https://twitter.com/thechavraya" class="social-icon"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com/chavraya" class="social-icon"><i class="fa fa-instagram"></i></a>
+                        <a href="https://youtube.com" class="social-icon" disabled><i class="fa fa-youtube"></i></a>
 		</div>
 	</div>
 	<!-- footer 2 -->

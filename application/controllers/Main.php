@@ -23,6 +23,10 @@ class Main extends CI_Controller {
 		$this->load->view('main');
 	}
 
+	public function hebrew(){
+		$this->load->view('hebrew');
+	}
+	
 	//Yes, I know database shit should be done in the model. No, I don't care.
 	public function register_user(){
 		$name = $this->input->post("name");
