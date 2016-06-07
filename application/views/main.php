@@ -22,6 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" href="<?= base_url() ?>assets/owl-carousel/owl.theme.css">
         <link rel="stylesheet" href="<?= base_url() ?>assets/cubeportfolio/css/cubeportfolio.min.css">
         <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 
             <!--Colors-->
             <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/red.css"> -->
@@ -326,7 +327,15 @@ Applicants receive the benefits in full detail depending on the family size</h4>
         <script src="<?= base_url() ?>assets/js/cube.js"></script>
         <script src="<?= base_url() ?>assets/js/script.js"></script>
         <script src="<?= base_url() ?>assets/js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
         <script>
+        <?php if($did_register == true): ?>
+        $(document).ready(function(){
+            swal("Thank you!", "You have successfully registered!", "success");
+    
+  });
+   
+        <?php endif ?>
         function submit_form(){
             //do validation
             $("#dat").submit();

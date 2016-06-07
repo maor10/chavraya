@@ -20,13 +20,15 @@ class Main extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('main');
+		$did_register = ($this->input->get("register") == 1) ? true : false;
+		$this->load->view('main', array("did_register"=>$did_register));
 	}
 
 	public function hebrew(){
-		$this->load->view('hebrew');
+		$did_register = ($this->input->get("register") == 1) ? true : false;
+		$this->load->view('hebrew', array("did_register"=>$did_register));
 	}
-	
+
 	//Yes, I know database shit should be done in the model. No, I don't care.
 	public function register_user(){
 		$name = $this->input->post("name");
@@ -48,7 +50,7 @@ $headers = 'From: Chavraya info@chavraya.com' . "\r\n" ;
 			$msg = "Name: " . $name .  "\r\n" . "Email: " . $email . "\r\n" . "City: " . $city . "\r\n" . "Country: " . $country . "\r\n" . "Phone: " . $phone . "\r\n" . "Family Size: " . $family_size . "\r\n" .  "Message: " . $message;
 		mail("Moshe@chavraya.com,Rabbi@chavraya.com,maor.kern@gmail.com,chavraya@gmail.com","New Registration!",$msg, $headers);
 		}
-		header('Location: '. base_url());
+		header('Location: '. base_url() . "?register=1");
 
 	}
 }
