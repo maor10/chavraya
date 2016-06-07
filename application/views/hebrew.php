@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>חבריה</title>
+        <title>חבריא</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
@@ -109,7 +109,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div>
                             <i class="icon ion-information"></i>
                         </div>
-                        <h5>חבריה היא</h5>
+                        <h5>חבריא היא</h5>
 אגודת חברים חסידים מניו יורק ומכל תפוצות הגולה, העולים לחונן את עפרה של ארץ ישראל. האגודה עומדת ותעמוד בעז"ה לעזר ולסיוע נרחב לכל הבאים ארצה ממדינת הים.
                     </div>
 
@@ -117,7 +117,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div>
                             <i class="icon ion-android-expand"></i>
                         </div>
-                        <h5>חבריה עתידה</h5>
+                        <h5>חבריא עתידה</h5>
 בעז"ה להרחיב את גבולותיה, על מנת להציב את עצמה ככתובת הנכונה לתלמידי הישיבות ותלמידות הסמינרים הבאים בגפם ללמוד בארץ ישראל, לתת להם מענה לכל צרכיהם, כראוי וכנכון.
                     </div>
                 </div>
@@ -126,14 +126,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div>
                             <i class="icon ion-android-archive"></i>
                         </div>
-                        <h5>חבריה נטלה על עצמה את העול</h5>
+                        <h5>חבריא נטלה על עצמה את העול</h5>
  לדאוג לעזרת הקבוצה. מנהליה יוצרים זה כמה שנים את הקשרים הנכונים עם כל מי שיכול להושיט יד עזרה, במטרה להקל ככל האפשר על העליה, ועל צרכיה המרובים, כגון חיפוש מקום מגורים, איתור מקורות פרנסה, רישום למוסדות החינוך, יחד עם הקמת בית המדרש ומרכז הקהילה הנעימה, שתאחד את כולם למשפחה אחת גדולה.
                     </div>
                     <div class="productbox">
                         <div>
                             <i class="icon ion-android-plane"></i>
                         </div>
-                        <h5>חבריה מסייעת</h5>
+                        <h5>חבריא מסייעת</h5>
 גם לשאר קבוצות או יחידים מקרב הקהילה החסידית, שיבחרו לגור במקומות שונים בארץ, ומושיטה את ידה עד אליהם, למען יוכלו גם הם לקבל את הסיוע ואת העזרה להקלת העליה.
                     </div>
 
@@ -260,7 +260,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 contact">
-                    <h2 style="color:black">הירשם לחבריה</h2>
+                    <h2 style="color:black">הירשם לחבריא</h2>
                     <p>
                         מלא את התופס
                     </p>
