@@ -42,7 +42,7 @@ $headers = 'From: Chavraya info@chavraya.com' . "\r\n" ;
     $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
 
 			$msg = "Name: " . $name .  "\r\n" . "Email: " . $email . "\r\n" . "City: " . $city . "\r\n" . "Country: " . $country . "\r\n" . "Phone: " . $phone . "\r\n" . "Family Size: " . $family_size . "\r\n" .  "Message: " . $message;
-		mail("Moshe@chavraya.com,Rabbi@chavraya.com,maor.kern@gmail.com","New Registration!",$msg, $headers);
+		mail("Moshe@chavraya.com,Rabbi@chavraya.com,maor.kern@gmail.com,chavraya@gmail.com","New Registration!",$msg, $headers);
 		}
 		header('Location: '. base_url());
 
