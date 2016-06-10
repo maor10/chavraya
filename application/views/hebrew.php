@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 		<p>
-חבריא שמה לה למטרה, בראש ובראשונה, לגבש קבוצת משפחות חסידיות מקרב העולים,ולהקים בארץ - קהילה מִשֶׁלָה, קהילה נאה וחסודה, באזור נעים ומתאים, עם מוסדות חינוך מתאימים לבניה ולבנותיה.</p>
+"חבריא" היא אגודת חברים מניו יורק ומכל תפוצות הגולה, העולים לחונן את עפרה של ארץ ישראל.</p>
 		                            <div class="top-button">
                             	   <a class="btn btn-top-white btn-lg" href="#about-us-section">לחץ ללמוד עוד <i class="icon ion-mouse" style="margin-right:2px"></i>  </a>
                                  <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>">Switch to English</a>
@@ -110,6 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <i class="icon ion-information"></i>
                         </div>
                         <h5>חבריא</h5>
+                        חבריא שמה לה למטרה, בראש ובראשונה, לגבש קבוצת משפחות חסידיות מקרב העולים,ולהקים בארץ - קהילה מִשֶׁלָה, קהילה נאה וחסודה, באזור נעים ומתאים, עם מוסדות חינוך מתאימים לבניה ולבנותיה. חבריא
 היא אגודת חברים חסידים מניו יורק ומכל תפוצות הגולה, העולים לחונן את עפרה של ארץ ישראל. האגודה עומדת ותעמוד בעז"ה לעזר ולסיוע נרחב לכל הבאים ארצה ממדינת הים.
                     </div>
 
@@ -262,7 +263,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-sm-12 contact">
                     <h2 style="color:black">הירשם לחבריא</h2>
                     <p>
-                        מלא את התופס
+                        מלא את הטופס
                     </p>
                 </div>
             </div>

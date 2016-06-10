@@ -390,7 +390,7 @@ color: #888;
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    background: url("../img/backgrounds/head2.jpg");
+    background: url("../img/backgrounds/head5.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1050,7 +1050,7 @@ color: #888;
 .callaction-container {
     margin: 0 auto;
     color: #fff;
-    background: url("../img/donate.jpg");
+    background: url("../img/head3.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1925,7 +1925,7 @@ color: #0dc0c0;
 /* MAOR */
 .benefits-container
 {
-    background:url(../img/bike.jpg);
+    background:url(../img/haredim_davenim.jpg);
     margin: 0 auto;
     color: #fff;
     -webkit-background-size: cover;
