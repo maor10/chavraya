@@ -287,7 +287,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- footer -->
 	<div id="footer">
-	<h3>עקבו אחרינו!</h3>
 	<div class="follow-us">
                         <a href="https://www.facebook.com/chavraya" class="social-icon"><i class="fa fa-facebook"></i></a>
                         <a href="https://twitter.com/thechavraya" class="social-icon"><i class="fa fa-twitter"></i></a>
