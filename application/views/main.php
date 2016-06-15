@@ -62,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="#about-us-section">About Us</a></li>
                         <li><a href="#benefits-section">Aliyah Benifits</a></li>
                         <li><a href="#services-section">Our Services</a></li>
-                        <li><a href="#contact-section">Register</a></li>
+                        <li><a href="#register">Register</a></li>
                         <li><a href="#callaction-container">Donate</a></li>
                     </ul>
                 </div>
@@ -257,7 +257,7 @@ Applicants receive the benefits in full detail depending on the family size</h4>
 
 
         <!-- Contact us -->
-        <div id="contact-section" class="contact-container">
+        <div id="register" class="contact-container">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 contact">
