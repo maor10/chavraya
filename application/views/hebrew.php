@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" href="<?= base_url() ?>assets/cubeportfolio/css/cubeportfolio.min.css">
         <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-
+<link rel="icon" href="assets/img/topicon.png">
             <!--Colors-->
             <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/red.css"> -->
             <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/orange.css"> -->
