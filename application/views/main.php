@@ -302,7 +302,7 @@ Applicants receive the benefits in full detail depending on the family size</h4>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-				<div class="copyright">&copy;Maor Kern
+				<div class="copyright">&copy;Chavraya
 							<script type="text/javascript">
 							//<![CDATA[
 								var d = new Date()

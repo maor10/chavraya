@@ -302,7 +302,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-				<div class="copyright">&copy;Maor Kern
+				<div class="copyright">&copy;Chavraya
 							<script type="text/javascript">
 							//<![CDATA[
 								var d = new Date()
