@@ -65,9 +65,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="#contact-section">Register</a></li>
                         <li><a href="#callaction-container">Donate</a></li>
                     </ul>
-                </div> 
+                </div>
             </div>
-        </div> 
+        </div>
 
         <!-- Top content -->
         <div id="home" class="parallax top-content" data-stellar-background-ratio="0.3">
@@ -76,29 +76,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="row">
 
 			<div class="col-md-10 col-md-offset-1 top-description">
-				
+
 				<h2 class="text-center">
 				<img src="assets/img/logo.png" width="350px" /></h2>
-				
-					
+
+
 		<p>
 Chavraya's primary goal is to bring together a group of heimish families that are making aliyah, and create their own beautiful community, a comfortable place with schools for the children and amenities catering specifically to their needs.</p>
 		                            <div class="top-button">
                             	   <a class="btn btn-top-white btn-lg" href="#about-us-section"><i class="icon ion-mouse" style="margin-right:2px"></i>  Click to Learn More</a>
                                     <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>index.php/he">החלף לעברית</a>
+                                    <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>index.php/yi">טוישן צו אידיש</a>
                             </div>
-	
+
 					</div>
                             </div>
-	
+
 					</div>
 
-			
+
 				</div>
 			</div>
 
         <!-- Features -->
-        
+
 <div id="about-us-section" class="product-container product-bg2">
             <div class="container" style="text-align:center">
                 <div class="row">
@@ -111,7 +112,7 @@ Chavraya's primary goal is to bring together a group of heimish families that ar
                         <h5>Chavraya was </h5>
 founded by a group of heimish families from the United States as well as internationally, that want to make aliyah and live in Eretz Yisroel, for various reasons. Chavraya will b'ezrat hashem help all who come from abroad to the Holy Land.
                     </div>
-                    
+
                     <div class="productbox">
                         <div>
                             <i class="icon ion-android-expand"></i>
@@ -136,14 +137,14 @@ currently in the process of expanding their operations to include providing reso
                         <h5>Chavraya helps</h5>
 individuals as well as groups of heimish people who want to live in other locations throughout Israel. They too can get the help and information needed to make their aliyah process easier and less stressful.
                     </div>
-                    
+
                 </div>
             </div>
 
 
         </div>
 
-        
+
     </div>
         <div id="benefits-section" class="features-container benefits-container" style="padding-bottom:0">
             <div class="inner-bg benefits-inner-container">
@@ -151,12 +152,12 @@ individuals as well as groups of heimish people who want to live in other locati
                 <div class="row">
                     <div class="col-sm-12 features">
                         <h2>Aliyah Benefits</h2>
-                        <h4 style="color: white; line-height: 200%;">Moving to a foreign state in order to settle involves lots of emotions and bureaucracy. There are the financial difficulties as well as the language and orientation process. Israel offers new citizens an absorption basket which is among the best in the world, Chavraya with its good relations connects between the Olim and various benefit resources. 
-Benefits such as Financial aid, Free flights, Discount on rent payments up to five years, A free course to learn the local language, a significant discount for higher education tuition, Tax breaks and more. 
+                        <h4 style="color: white; line-height: 200%;">Moving to a foreign state in order to settle involves lots of emotions and bureaucracy. There are the financial difficulties as well as the language and orientation process. Israel offers new citizens an absorption basket which is among the best in the world, Chavraya with its good relations connects between the Olim and various benefit resources.
+Benefits such as Financial aid, Free flights, Discount on rent payments up to five years, A free course to learn the local language, a significant discount for higher education tuition, Tax breaks and more.
 Applicants receive the benefits in full detail depending on the family size</h4>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         </div>
@@ -227,7 +228,7 @@ Applicants receive the benefits in full detail depending on the family size</h4>
                 </div>
             </div>
         </div>
-        
+
 
 
         <!-- Callaction -->
@@ -248,12 +249,12 @@ Applicants receive the benefits in full detail depending on the family size</h4>
 
         <!-- Pricing -->
 
-       
 
 
-   
+
+
                 <!-- Testimonials -->
-        
+
 
         <!-- Contact us -->
         <div id="contact-section" class="contact-container">
@@ -268,7 +269,7 @@ Applicants receive the benefits in full detail depending on the family size</h4>
             </div>
             <div class="row">
                 <div class="col-sm-12 form-group register-a-form">
-                    
+
                     <form method="post" action="<?= base_url() ?>index.php/main/register_user" id="register_form">
                         <input type="text" name="name" placeholder="Full Name" class="form-control contact-name">
                         <input type="text" name="city" placeholder="City" class="form-control contact-city">
@@ -279,14 +280,14 @@ Applicants receive the benefits in full detail depending on the family size</h4>
                         <textarea name="message" class="form-control" placeholder="Message"></textarea>
                         <button type="submit" class="btn btn-contact" id="dat" onclick="submit_form()">Submit</button>
                     </form>
-                    
+
                 </div>
-                
+
             </div>
           </div>
         </div>
 
-        
+
 	<!-- footer -->
 	<div id="footer">
 	<h3>Follow Us!</h3>
@@ -309,13 +310,13 @@ Applicants receive the benefits in full detail depending on the family size</h4>
 								document.write(d.getFullYear())
 								//]]>
 								</script>
-							 
+
 						</div>
 						</div>
 					</div>
 				</div>
 					</div>
-        
+
         <!-- Javascript -->
         <script src="<?= base_url() ?>assets/js/jquery-1.10.2.min.js"></script>
         <script src="<?= base_url() ?>assets/bootstrap/js/bootstrap.min.js"></script>
@@ -332,9 +333,9 @@ Applicants receive the benefits in full detail depending on the family size</h4>
         <?php if($did_register == true): ?>
         $(document).ready(function(){
             swal("Thank you!", "You have successfully registered!", "success");
-    
+
   });
-   
+
         <?php endif ?>
         function submit_form(){
             //do validation
@@ -345,4 +346,3 @@ Applicants receive the benefits in full detail depending on the family size</h4>
     </body>
 
 </html>
-

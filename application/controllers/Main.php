@@ -29,6 +29,11 @@ class Main extends CI_Controller {
 		$this->load->view('hebrew', array("did_register"=>$did_register));
 	}
 
+	public function yiddish(){
+		$did_register = ($this->input->get("register") == 1) ? true : false;
+		$this->load->view('yiddish', array("did_register"=>$did_register));
+	}
+
 	//Yes, I know database shit should be done in the model. No, I don't care.
 	public function register_user(){
 		$name = $this->input->post("name");
@@ -40,12 +45,12 @@ class Main extends CI_Controller {
 			$family_size = $this->input->post("family-size");
 			$message = $this->input->post("message");
 			$this->db->insert("members", array("email" => $email, "name" => $name, "city" => $city, "country" => $country, "phone" => $phone, "family_size" => $family_size, "message"=> $message ));
-			
+
 $headers = 'From: Chavraya info@chavraya.com' . "\r\n" ;
     $headers .='Reply-To: '. $to . "\r\n" ;
     $headers .='X-Mailer: PHP/' . phpversion();
     $headers .= "MIME-Version: 1.0\r\n";
-    $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
+    $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
 			$msg = "Name: " . $name .  "\r\n" . "Email: " . $email . "\r\n" . "City: " . $city . "\r\n" . "Country: " . $country . "\r\n" . "Phone: " . $phone . "\r\n" . "Family Size: " . $family_size . "\r\n" .  "Message: " . $message;
 		mail("Moshe@chavraya.com,Rabbi@chavraya.com,maor.kern@gmail.com,chavraya@gmail.com","New Registration!",$msg, $headers);

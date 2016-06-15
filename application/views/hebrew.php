@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link rel="stylesheet" href="<?= base_url() ?>assets/cubeportfolio/css/cubeportfolio.min.css">
         <link rel="stylesheet" href="<?= base_url() ?>assets/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-<link rel="icon" href="assets/img/topicon.png">
+
             <!--Colors-->
             <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/red.css"> -->
             <!-- <link rel="stylesheet" type="text/css" href="assets/css/colors/orange.css"> -->
@@ -86,6 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		                            <div class="top-button">
                             	   <a class="btn btn-top-white btn-lg" href="#about-us-section">לחץ ללמוד עוד <i class="icon ion-mouse" style="margin-right:2px"></i>  </a>
                                  <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>">Switch to English</a>
+                                 <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>index.php/yi">טוישן צו אידיש</a>
 
                             </div>
 
@@ -302,7 +303,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-				<div class="copyright">&copy;Chavraya
+				<div class="copyright">&copy;Maor Kern
 							<script type="text/javascript">
 							//<![CDATA[
 								var d = new Date()
