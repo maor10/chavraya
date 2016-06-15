@@ -5,15 +5,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;	
+    -webkit-text-size-adjust: 100%;
 }
 
 :focus {
     outline: 0 !important
 }
 
-strong { 
-	font-weight: 600; 
+strong {
+	font-weight: 600;
 }
 
 a, a:hover, a:focus {
@@ -221,7 +221,7 @@ textarea {
     transition: all .3s;
 }
 
-input[type="text"]:focus, 
+input[type="text"]:focus,
 textarea:focus {
 	outline: 0;
     -moz-box-shadow: none;
@@ -229,18 +229,18 @@ textarea:focus {
     box-shadow: none;
 }
 
-input[type="text"]:-moz-placeholder, textarea:-moz-placeholder { color: #888; 
+input[type="text"]:-moz-placeholder, textarea:-moz-placeholder { color: #888;
 }
 
-input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder { 
-color: #888; 
+input[type="text"]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+color: #888;
 }
 
-input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
-color: #888; 
+input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #888;
 }
 
-.btn-subscribe, 
+.btn-subscribe,
 .btn-contact {
     margin: 0;
     padding: 0;
@@ -266,7 +266,7 @@ color: #888;
     transition: all .3s;
 }
 
-.btn-subscribe:hover, 
+.btn-subscribe:hover,
 .btn-contact:hover {
   background: #009ca8;
   border: 1px solid #0092a0;
@@ -282,7 +282,7 @@ color: #888;
     transition: all .3s;
 }
 
-.btn-subscribe:active, 
+.btn-subscribe:active,
 .btn-contact:active {
 	outline: 0;
   background: #009ca8;
@@ -294,7 +294,7 @@ color: #888;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 
-.btn-subscribe:focus, 
+.btn-subscribe:focus,
 .btn-contact:focus {
 	outline: 0;
 	color: #fff;
@@ -390,7 +390,7 @@ color: #888;
     margin: 0 auto;
     text-align: center;
     color: #fff;
-    background: url("../img/backgrounds/back.jpg");
+    background: url("../img/headf.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -401,7 +401,7 @@ color: #888;
     padding: 0;
 	padding-top: 180px;
 	padding-bottom: 120px;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .top-content .text {
@@ -415,7 +415,7 @@ color: #888;
     font-size: 48px;
     line-height: 54px;
 	margin: 10px 0 30px 0;
-	font-weight: 400; 
+	font-weight: 400;
 	text-align: center;
 }
 
@@ -427,11 +427,11 @@ color: #888;
 	display: inline-block;
     font-size: 58px;
     line-height: 68px;
-	font-weight: 600; 
+	font-weight: 600;
     color: #0dc0c0;
 }
 
-.top-content .logo a:hover { 
+.top-content .logo a:hover {
     color: #0dc0c0;
 }
 
@@ -1017,8 +1017,8 @@ color: #888;
 		position: relative;
 		margin-bottom: 60px;
 	}
-	
-	
+
+
 	.productbox div {
 		position: absolute;
 		width: 36px;
@@ -1050,7 +1050,7 @@ color: #888;
 .callaction-container {
     margin: 0 auto;
     color: #fff;
-    background: url("../img/head3.jpg");
+    background: url("../img/donatenof.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1147,7 +1147,7 @@ color: #888;
 	font-weight: 400;
 	padding:18px 0;
 	}
-	
+
 .price-column li:first-child {
 	border-top: none;
 	}
@@ -1155,7 +1155,7 @@ color: #888;
 .price-column li:last-child {
 	border-bottom:1px solid #eee;
 	}
-	
+
 .price-column.large {
 	margin-bottom: 50px;
 }
@@ -1318,7 +1318,7 @@ color: #888;
   z-index: 9990;
   /* @editable properties */
   height: 104px;
-  background-color: #fff; 
+  background-color: #fff;
     border-bottom: 2px solid #eee;
 	-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
 	-moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.04);
@@ -1459,7 +1459,7 @@ color: #888;
     font-weight: 700;
 }
 
-.testimonials img{ 
+.testimonials img{
 	width:100px;
 	height:100px;
 	display:block;
@@ -1527,7 +1527,7 @@ textarea {
     line-height: 24px;
 }
 
-.register-a-form, 
+.register-a-form,
 .contact-address {
     padding-bottom: 80px;
 }
@@ -1552,7 +1552,7 @@ textarea {
     margin: 15px 0 0 0;
 }
 
-.register-a-form form input, 
+.register-a-form form input,
 .register-a-form form textarea {
     width: 90%;
     height: 52px;
@@ -1616,7 +1616,7 @@ textarea {
 text-align:center;
 }
 
-#footer h3 { 
+#footer h3 {
 	color: #555;
     font-size: 32px;
     font-weight: 300;
@@ -1631,29 +1631,29 @@ text-align:center;
     line-height: 24px;
 }
 
-#footer { 
-background-color: #fff; 
-padding: 60px 0 60px; 
-text-align:center; 
+#footer {
+background-color: #fff;
+padding: 60px 0 60px;
+text-align:center;
 }
 
 #footer2 {
 	position:relative;
 	text-align:center;
-	padding:39px 0 36px; 
+	padding:39px 0 36px;
 	background: #222;
 	color:#999;
-	margin:0 0; 
+	margin:0 0;
 	font-size:13px;
 	font-weight:400;
 }
 
 .copyright a {
-color:#aaa; 
+color:#aaa;
 }
 
 .copyright a:hover {
-color: #0dc0c0; 
+color: #0dc0c0;
 }
 
 
@@ -1727,14 +1727,14 @@ color: #0dc0c0;
     body {
         padding-left: 0;
         padding-right: 0;
-    }    
- 
+    }
+
     .navbar-default.menu-top{
         background-color: #fff !important;
     border-bottom: 1px solid #eee;
         text-align: center;
     width:100%;
-    }  
+    }
 .navbar-default.menu-top li a{
     color: #323A45 !important;
 }
@@ -1745,7 +1745,7 @@ color: #0dc0c0;
     .top-content .text {
     	text-align: center;
     }
-    
+
 
     .top-content .logo a, .features h3, .product-text h3, .product-button, .faq-text h3, .subscribe h3, .testimonials h3, .team h3, .contact h3 {
         padding: 0 20px;
@@ -1771,12 +1771,12 @@ color: #0dc0c0;
     .features-box p, .team-member p, .contact-address p {
         padding: 0 20px;
     }
-  
+
 .features-box1, .features-box2, .features-box3, .features-box4, .features-box5, .features-box6 {
     border: none;
 }
- 
- 
+
+
 .highlights {
 	padding-left: 20px;
 }
@@ -1796,12 +1796,12 @@ color: #0dc0c0;
     .register-a-form, .contact-address {
         text-align: center;
     }
-    
+
     .register-a-form {
         padding-bottom: 40px;
     }
-    
-.register-a-form form input, 
+
+.register-a-form form input,
 .register-a-form form textarea {
         width: 100%;
 }
@@ -1809,7 +1809,7 @@ color: #0dc0c0;
     .contact-address {
         padding-bottom: 65px;
     }
-    
+
 .reviews-panel p {
     padding: 20px;
     margin-bottom: 0;
@@ -1818,11 +1818,11 @@ color: #0dc0c0;
     .copyright, .social-icon {
         text-align: center;
     }
-    
+
     .copyright p {
         padding: 0 20px;
     }
-    
+
     .social-icon {
         margin-top: 15px;
     }
@@ -1916,7 +1916,7 @@ color: #0dc0c0;
 		padding-top: 5px;
 		padding-bottom: 5px;
 	}
-	
+
 
 }
 
@@ -1925,7 +1925,7 @@ color: #0dc0c0;
 /* MAOR */
 .benefits-container
 {
-    background:url(../img/haredim_davenim.jpg);
+    background:url(../img/know.jpg);
     margin: 0 auto;
     color: #fff;
     -webkit-background-size: cover;
