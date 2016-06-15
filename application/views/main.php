@@ -84,8 +84,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>
 Chavraya's primary goal is to bring together a group of heimish families that are making aliyah, and create their own beautiful community, a comfortable place with schools for the children and amenities catering specifically to their needs.</p>
 		                            <div class="top-button">
-                            	   <a class="btn btn-top-white btn-lg" href="#about-us-section"><i class="icon ion-mouse" style="margin-right:2px"></i>  Click to Learn More</a>
                                     <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>index.php/he">החלף לעברית</a>
+                                    <a class="btn btn-top-white btn-lg" href="#about-us-section"><i class="icon ion-mouse" style="margin-right:2px"></i>  Click to Learn More</a>
                                     <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>index.php/yi">טוישן צו אידיש</a>
                             </div>
 

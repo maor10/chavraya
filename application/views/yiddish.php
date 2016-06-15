@@ -84,8 +84,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>
 'חבריא' האט געמאכט פאר זיך א ציל, בראש ובראשונה צוזאמנעמען א גרופע חסידישע משפחות פון די וואס קומען ארויף וואוינען קיין ארץ ישראל און אויפשטעלן א געשמאקע קהילה, קהילה נאה וחסודה, אין א שיינע פאסיגע פלאץ, מיט פאסיגע מוסדות חינוך פאר די קינדערלעך.</p>
 		                            <div class="top-button">
-                            	   <a class="btn btn-top-white btn-lg" href="#about-us-section">לחץ ללמוד עוד <i class="icon ion-mouse" style="margin-right:2px"></i>  </a>
                                  <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>">Switch to English</a>
+                                 <a class="btn btn-top-white btn-lg" href="#about-us-section">לחץ ללמוד עוד <i class="icon ion-mouse" style="margin-right:2px"></i>  </a>
                                  <a class="btn btn-top-white btn-lg" href="<?= base_url() ?>index.php/he">החלף לעברית</a>
 
                             </div>
